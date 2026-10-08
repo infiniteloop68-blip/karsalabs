@@ -1,0 +1,21 @@
+# Cloudflare Pages Redirects
+/produk /goletin#katalog 301
+/produk/yaycount /goletin/yaycount 301
+/produk/ecl-pro /goletin/ecl-pro 301
+/produk/indotax /goletin/indotax 301
+/produk/jet-pro /goletin/jet-pro 301
+/produk/ai /goletin/ai 301
+/produk/goletin-ai /goletin/ai 301
+/produk/lease /goletin/lease 301
+/produk/lease-engine /goletin/lease 301
+/goletin/lease-engine /goletin/lease 301
+/produk/sampling /goletin/sampling-pro 301
+/produk/sampling-pro /goletin/sampling-pro 301
+/mitra /goletin/mitra 301
+/ekosistem /goletin 301
+/layanan /solusi 301
+/goletin/support /goletin/dukungan 301
+/sitemap /peta-situs 301
+/kebijakan-privasi /privasi 301
+/goletin/paperless-audit /goletin/icofr-pro 301
+/goletin/inventory /goletin/counting-pro 301

@@ -1,0 +1,66 @@
+<svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Radiant Royal Indigo to Vivid Violet Gradient (Edge-to-Edge) -->
+    <linearGradient id="lease-grad" x1="0" y1="0" x2="512" y2="512" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#4F46E5"/>
+      <stop offset="50%" stop-color="#6366F1"/>
+      <stop offset="100%" stop-color="#7C3AED"/>
+    </linearGradient>
+
+    <!-- Left Building Gradient -->
+    <linearGradient id="tower-1" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#6366F1"/>
+      <stop offset="100%" stop-color="#4338CA"/>
+    </linearGradient>
+
+    <!-- Right Tower Gradient -->
+    <linearGradient id="tower-2" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#818CF8"/>
+      <stop offset="100%" stop-color="#4F46E5"/>
+    </linearGradient>
+
+    <!-- Drop Shadow on Card -->
+    <filter id="card-shadow" x="50" y="48" width="412" height="420" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="14" stdDeviation="18" flood-color="#1E1B4B" flood-opacity="0.32"/>
+    </filter>
+  </defs>
+
+  <!-- Squircle Base (Edge-to-Edge Vibrant Gradient, No Dark Border) -->
+  <rect width="512" height="512" rx="112" fill="url(#lease-grad)"/>
+
+  <!-- Top Glass Highlight Reflection -->
+  <path d="M0 112C0 50.141 50.141 0 112 0H400C461.859 0 512 50.141 512 112V140C384 100 128 100 0 140V112Z" fill="#FFFFFF" fill-opacity="0.14"/>
+
+  <!-- Main Financial Accounting Card (White Ceramic Plate - Expansive 340x330) -->
+  <g filter="url(#card-shadow)">
+    <rect x="86" y="80" width="340" height="340" rx="36" fill="#FFFFFF" fill-opacity="0.98"/>
+  </g>
+
+  <!-- Header Badge Pill: LEASE Pro -->
+  <rect x="124" y="112" width="264" height="64" rx="18" fill="#4F46E5" fill-opacity="0.12"/>
+  <text x="256" y="156" text-anchor="middle" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="34" font-weight="900" letter-spacing="2.5" fill="#4338CA">LEASE Pro</text>
+
+  <!-- Architectural Asset (ROU Leased Properties) -->
+  <!-- Left Building (Medium Tower) -->
+  <rect x="136" y="224" width="108" height="136" rx="14" fill="url(#tower-1)"/>
+  <!-- Left Tower Window Slits -->
+  <line x1="172" y1="252" x2="172" y2="332" stroke="#FFFFFF" stroke-width="12" stroke-linecap="round" stroke-opacity="0.95"/>
+  <line x1="208" y1="252" x2="208" y2="332" stroke="#FFFFFF" stroke-width="12" stroke-linecap="round" stroke-opacity="0.95"/>
+
+  <!-- Right High Tower (Major ROU Property) -->
+  <rect x="256" y="188" width="120" height="172" rx="14" fill="url(#tower-2)"/>
+  <!-- Right Tower Window Slits -->
+  <line x1="296" y1="216" x2="296" y2="332" stroke="#FFFFFF" stroke-width="12" stroke-linecap="round" stroke-opacity="0.95"/>
+  <line x1="336" y1="216" x2="336" y2="332" stroke="#FFFFFF" stroke-width="12" stroke-linecap="round" stroke-opacity="0.95"/>
+
+  <!-- Rooftop Spire / Antenna -->
+  <line x1="316" y1="168" x2="316" y2="188" stroke="#4F46E5" stroke-width="8" stroke-linecap="round"/>
+
+  <!-- Baseline (Lease Liability Ground) -->
+  <line x1="124" y1="368" x2="388" y2="368" stroke="#CBD5E1" stroke-width="6" stroke-linecap="round"/>
+
+  <!-- Lease Schedule Indicator Pills -->
+  <rect x="136" y="386" width="64" height="14" rx="7" fill="#10B981"/>
+  <rect x="224" y="386" width="64" height="14" rx="7" fill="#6366F1"/>
+  <rect x="312" y="386" width="64" height="14" rx="7" fill="#8B5CF6"/>
+</svg>

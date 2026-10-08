@@ -1,0 +1,30 @@
+<svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="sheets-grad" x1="0" y1="0" x2="512" y2="512" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#047857"/>
+      <stop offset="50%" stop-color="#10B981"/>
+      <stop offset="100%" stop-color="#059669"/>
+    </linearGradient>
+    <filter id="sheets-shadow" x="50" y="48" width="412" height="420" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="14" stdDeviation="18" flood-color="#064E3B" flood-opacity="0.35"/>
+    </filter>
+  </defs>
+  <rect width="512" height="512" rx="112" fill="url(#sheets-grad)"/>
+  <path d="M0 112C0 50.141 50.141 0 112 0H400C461.859 0 512 50.141 512 112V140C384 100 128 100 0 140V112Z" fill="#FFFFFF" fill-opacity="0.14"/>
+  <g filter="url(#sheets-shadow)">
+    <rect x="86" y="80" width="340" height="340" rx="36" fill="#FFFFFF" fill-opacity="0.98"/>
+  </g>
+  <rect x="124" y="112" width="264" height="60" rx="16" fill="#10B981" fill-opacity="0.12"/>
+  <text x="256" y="153" text-anchor="middle" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="28" font-weight="900" letter-spacing="1.5" fill="#047857">GOLETIN SHEETS</text>
+  <!-- Spreadsheet Grid Table -->
+  <rect x="144" y="200" width="224" height="176" rx="14" fill="#ECFDF5" stroke="#10B981" stroke-width="8"/>
+  <!-- Header row fill -->
+  <path d="M148 204H364V246H148V204Z" fill="#A7F3D0"/>
+  <!-- Grid vertical line -->
+  <line x1="220" y1="200" x2="220" y2="376" stroke="#10B981" stroke-width="6"/>
+  <line x1="294" y1="200" x2="294" y2="376" stroke="#10B981" stroke-width="6"/>
+  <!-- Grid horizontal lines -->
+  <line x1="144" y1="246" x2="368" y2="246" stroke="#10B981" stroke-width="8"/>
+  <line x1="144" y1="290" x2="368" y2="290" stroke="#10B981" stroke-width="6"/>
+  <line x1="144" y1="334" x2="368" y2="334" stroke="#10B981" stroke-width="6"/>
+</svg>

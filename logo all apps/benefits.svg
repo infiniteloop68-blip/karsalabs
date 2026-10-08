@@ -1,0 +1,41 @@
+<svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Radiant Royal Blue to Indigo Gradient (Edge-to-Edge) -->
+    <linearGradient id="ben-grad" x1="0" y1="0" x2="512" y2="512" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#2563EB"/>
+      <stop offset="50%" stop-color="#3B82F6"/>
+      <stop offset="100%" stop-color="#4F46E5"/>
+    </linearGradient>
+
+    <filter id="ben-shadow" x="50" y="48" width="412" height="420" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="14" stdDeviation="18" flood-color="#1E1B4B" flood-opacity="0.32"/>
+    </filter>
+  </defs>
+
+  <!-- Squircle Base (Edge-to-Edge Vibrant Gradient, No Dark Border) -->
+  <rect width="512" height="512" rx="112" fill="url(#ben-grad)"/>
+
+  <!-- Top Glass Highlight Reflection -->
+  <path d="M0 112C0 50.141 50.141 0 112 0H400C461.859 0 512 50.141 512 112V140C384 100 128 100 0 140V112Z" fill="#FFFFFF" fill-opacity="0.14"/>
+
+  <!-- Actuarial Valuation Card (White Ceramic Plate - 320x340) -->
+  <g filter="url(#ben-shadow)">
+    <rect x="96" y="86" width="320" height="340" rx="36" fill="#FFFFFF" fill-opacity="0.98"/>
+  </g>
+
+  <!-- Header Badge: EMBEN Pro -->
+  <rect x="136" y="118" width="240" height="68" rx="18" fill="#2563EB" fill-opacity="0.12"/>
+  <text x="256" y="162" text-anchor="middle" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="32" font-weight="900" letter-spacing="2" fill="#2563EB">EMBEN Pro</text>
+
+  <!-- Actuarial Keypad / Calculation Matrix -->
+  <rect x="136" y="214" width="64" height="46" rx="12" fill="#E2E8F0"/>
+  <rect x="224" y="214" width="64" height="46" rx="12" fill="#E2E8F0"/>
+  <rect x="312" y="214" width="64" height="46" rx="12" fill="#E2E8F0"/>
+
+  <rect x="136" y="280" width="64" height="46" rx="12" fill="#E2E8F0"/>
+  <rect x="224" y="280" width="64" height="46" rx="12" fill="#E2E8F0"/>
+  <rect x="312" y="280" width="64" height="46" rx="12" fill="#2563EB"/>
+
+  <rect x="136" y="346" width="64" height="46" rx="12" fill="#E2E8F0"/>
+  <rect x="224" y="346" width="152" height="46" rx="12" fill="#2563EB"/>
+</svg>

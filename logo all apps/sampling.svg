@@ -1,0 +1,26 @@
+<svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Radiant Indigo to Cyan Gradient (Edge-to-Edge) -->
+    <linearGradient id="sampling-grad" x1="0" y1="0" x2="512" y2="512" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#4F46E5"/>
+      <stop offset="100%" stop-color="#06B6D4"/>
+    </linearGradient>
+
+    <!-- Shield Shadow -->
+    <filter id="shield-shadow" x="110" y="90" width="292" height="330" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="14" stdDeviation="16" flood-color="#1E1B4B" flood-opacity="0.3"/>
+    </filter>
+  </defs>
+
+  <!-- Squircle Base (Edge-to-Edge Vibrant Gradient, No Dark Border) -->
+  <rect width="512" height="512" rx="112" fill="url(#sampling-grad)"/>
+
+  <!-- Top Glass Highlight -->
+  <path d="M0 112C0 50.141 50.141 0 112 0H400C461.859 0 512 50.141 512 112V140C384 100 128 100 0 140V112Z" fill="#FFFFFF" fill-opacity="0.14"/>
+  
+  <!-- ShieldCheck Emblem -->
+  <g filter="url(#shield-shadow)">
+    <path d="M256 120C276 148 316 168 360 176C366 177 370 182 370 188V264C370 324 322 368 256 392C190 368 142 324 142 264V188C142 182 146 177 152 176C196 168 236 148 256 120Z" fill="#FFFFFF"/>
+    <path d="M208 260L242 294L312 220" stroke="#4F46E5" stroke-width="28" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+</svg>

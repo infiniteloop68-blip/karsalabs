@@ -1,0 +1,25 @@
+<svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="pdf-grad" x1="0" y1="0" x2="512" y2="512" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#B91C1C"/>
+      <stop offset="50%" stop-color="#EF4444"/>
+      <stop offset="100%" stop-color="#DC2626"/>
+    </linearGradient>
+    <filter id="pdf-shadow" x="50" y="48" width="412" height="420" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="14" stdDeviation="18" flood-color="#7F1D1D" flood-opacity="0.35"/>
+    </filter>
+  </defs>
+  <rect width="512" height="512" rx="112" fill="url(#pdf-grad)"/>
+  <path d="M0 112C0 50.141 50.141 0 112 0H400C461.859 0 512 50.141 512 112V140C384 100 128 100 0 140V112Z" fill="#FFFFFF" fill-opacity="0.14"/>
+  <g filter="url(#pdf-shadow)">
+    <rect x="86" y="80" width="340" height="340" rx="36" fill="#FFFFFF" fill-opacity="0.98"/>
+  </g>
+  <rect x="124" y="112" width="264" height="60" rx="16" fill="#EF4444" fill-opacity="0.12"/>
+  <text x="256" y="153" text-anchor="middle" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="28" font-weight="900" letter-spacing="1.5" fill="#B91C1C">GOLETIN PDF</text>
+  <!-- PDF Sheet Icon -->
+  <path d="M160 200H300L352 252V364C352 372.837 344.837 380 336 380H160C151.163 380 144 372.837 144 364V216C144 207.163 151.163 200 160 200Z" fill="#FEF2F2" stroke="#EF4444" stroke-width="8" stroke-linejoin="round"/>
+  <path d="M300 200V252H352" fill="#FEE2E2" stroke="#EF4444" stroke-width="8" stroke-linejoin="round"/>
+  <!-- PDF Bold Badge Block -->
+  <rect x="180" y="276" width="152" height="64" rx="10" fill="#EF4444"/>
+  <text x="256" y="321" text-anchor="middle" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="34" font-weight="900" letter-spacing="2" fill="#FFFFFF">PDF</text>
+</svg>
