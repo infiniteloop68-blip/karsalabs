@@ -94,7 +94,7 @@ export default function Home() {
             <div className="ms-feature-card">
               <div className="feature-card-image-wrap">
                 <img
-                  src="/images/indotax-card.png"
+                  src="/images/corporate-analysis.jpg"
                   alt="IndoTax"
                   className="feature-card-image"
                 />
@@ -130,7 +130,7 @@ export default function Home() {
             <div className="ms-feature-card">
               <div className="feature-card-image-wrap">
                 <img
-                  src="/images/goletin-search-card.png"
+                  src="/images/cand-dashboard.jpg"
                   alt="Goletin Search Privat"
                   className="feature-card-image"
                 />

@@ -86,128 +86,93 @@ function SlideVisualGoletinAI() {
 }
 
 /**
- * Slide 2 Visual Stage: Goletin Business & Enterprise Suite Workspace
+ * Slide 2 Visual Stage: Goletin Enterprise Bento Showcase (Static, No Laptop)
  * Menggunakan logo-logo asli dari /logos (logo all apps):
- * yaycount, indotax, eclpro, jet-pro, icofr, lease, counting-pro, benefits
+ * yaycount, indotax, eclpro, jet-pro, icofr, lease, counting-pro, benefits, revenue, sampling
  */
 function SlideVisualGoletinBusiness() {
   return (
-    <div className="hero-biz-stage" aria-hidden="true">
-      <div className="hero-biz-glow" />
+    <div className="hero-biz-bento" aria-hidden="true">
+      {/* Top Header Strip: Brand + Multi-Tenant Suite Pills */}
+      <div className="hero-biz-bento-header">
+        <div className="hero-biz-bento-title">
+          <img src="/logo-karsasoft.svg" alt="Karsasoft" width={16} height={16} />
+          <span>Goletin Enterprise Workspace</span>
+        </div>
+        <div className="hero-biz-pills-row">
+          <span className="biz-header-pill">
+            <img src="/logos/counting-pro.svg" alt="Counting Pro" width={15} height={15} />
+            <span>Counting Pro</span>
+          </span>
+          <span className="biz-header-pill">
+            <img src="/logos/benefits.svg" alt="Benefits" width={15} height={15} />
+            <span>Benefits IAS 19</span>
+          </span>
+          <span className="biz-header-pill">
+            <img src="/logos/revenue.svg" alt="Revenue" width={15} height={15} />
+            <span>Revenue</span>
+          </span>
+          <span className="biz-header-pill">
+            <img src="/logos/sampling.svg" alt="Sampling" width={15} height={15} />
+            <span>Sampling Pro</span>
+          </span>
+        </div>
+      </div>
 
-      {/* Laptop / Workspace Frame */}
-      <div className="hero-laptop-wrap">
-        <div className="hero-laptop-screen">
-          {/* Header */}
-          <div className="hero-laptop-navbar">
-            <div className="hero-laptop-dots">
-              <span className="dot red" />
-              <span className="dot yellow" />
-              <span className="dot green" />
-            </div>
-            <div className="hero-laptop-brand">
-              <img src="/logo-karsasoft.svg" alt="Karsasoft" width={14} height={14} />
-              <span>Goletin Enterprise Workspace</span>
-            </div>
-            <div className="hero-laptop-status">
-              <span className="status-live-dot" />
-              <span>Multi-Tenant Online</span>
-            </div>
-          </div>
-
-          {/* Screen Content: Yaycount ERP + IndoTax */}
-          <div className="hero-laptop-content">
-            <div className="hero-screen-card erp-card">
-              <div className="hero-screen-card-header">
-                <img src="/logos/yaycount.svg" alt="Yaycount ERP" width={28} height={28} />
-                <div>
-                  <div className="hero-screen-card-title">Yaycount ERP</div>
-                  <div className="hero-screen-card-sub">PSAK 45 / ISAK 35</div>
-                </div>
-              </div>
-              <div className="hero-screen-metric">
-                <span className="metric-label">Kas & Bank Konsolidasi</span>
-                <span className="metric-val">Rp 4.850.000.000</span>
-              </div>
-              <div className="hero-screen-bars">
-                <div className="bar b1" style={{ width: '85%' }} />
-                <div className="bar b2" style={{ width: '65%' }} />
-              </div>
-            </div>
-
-            <div className="hero-screen-card tax-card">
-              <div className="hero-screen-card-header">
-                <img src="/logos/indotax.svg" alt="IndoTax" width={28} height={28} />
-                <div>
-                  <div className="hero-screen-card-title">IndoTax</div>
-                  <div className="hero-screen-card-sub">PPh 21 TER & e-Faktur</div>
-                </div>
-              </div>
-              <div className="hero-screen-metric">
-                <span className="metric-label">Kepatuhan Pajak Karyawan</span>
-                <span className="metric-badge">100% Sesuai Regulasi</span>
-              </div>
-              <div className="hero-screen-tags">
-                <span className="tag-pill">Tarif TER 2024</span>
-                <span className="tag-pill">SPT Masa Valid</span>
-              </div>
+      {/* Primary Flagships: Yaycount ERP + IndoTax */}
+      <div className="hero-biz-duo-grid">
+        <div className="hero-biz-card-lead">
+          <div className="hero-biz-lead-top">
+            <img src="/logos/yaycount.svg" alt="Yaycount ERP" width={38} height={38} />
+            <div>
+              <div className="hero-biz-lead-name">Yaycount ERP</div>
+              <div className="hero-biz-lead-compliance">PSAK 45 / ISAK 35</div>
             </div>
           </div>
+          <p className="hero-biz-lead-desc">
+            Sistem akuntansi yayasan &amp; nirlaba dengan multi-fund reporting dan rekonsiliasi kas terpadu.
+          </p>
         </div>
 
-        {/* Laptop Deck Base */}
-        <div className="hero-laptop-base" />
-      </div>
-
-      {/* Orbiting Satellite Enterprise Cards */}
-      <div className="hero-biz-satellite sat-ecl" title="ECL Pro">
-        <div className="hero-biz-sat-icon">
-          <img src="/logos/eclpro.svg" alt="ECL Pro" width={30} height={30} />
-        </div>
-        <div className="hero-biz-sat-text">
-          <strong>ECL Pro</strong>
-          <span>IFRS 9 CKPN Engine</span>
-        </div>
-      </div>
-
-      <div className="hero-biz-satellite sat-jet" title="JET Pro">
-        <div className="hero-biz-sat-icon">
-          <img src="/logos/jet-pro.svg" alt="JET Pro" width={30} height={30} />
-        </div>
-        <div className="hero-biz-sat-text">
-          <strong>JET Pro</strong>
-          <span>ISA 240 Fraud Detection</span>
+        <div className="hero-biz-card-lead">
+          <div className="hero-biz-lead-top">
+            <img src="/logos/indotax.svg" alt="IndoTax" width={38} height={38} />
+            <div>
+              <div className="hero-biz-lead-name">IndoTax</div>
+              <div className="hero-biz-lead-compliance">Kepatuhan Pajak Nasional</div>
+            </div>
+          </div>
+          <p className="hero-biz-lead-desc">
+            Kalkulator PPh 21 TER 2024, rekonsiliasi e-Faktur PPN, dan pelaporan SPT Masa 100% akurat.
+          </p>
         </div>
       </div>
 
-      <div className="hero-biz-satellite sat-icofr" title="ICOFR Pro">
-        <div className="hero-biz-sat-icon">
-          <img src="/logos/icofr.svg" alt="ICOFR Pro" width={30} height={30} />
+      {/* Regulatory & Audit Engines: ECL Pro, JET Pro, ICOFR Pro, Lease Engine */}
+      <div className="hero-biz-quad-grid">
+        <div className="hero-biz-engine-card">
+          <img src="/logos/eclpro.svg" alt="ECL Pro" width={32} height={32} />
+          <div className="hero-biz-engine-title">ECL Pro</div>
+          <div className="hero-biz-engine-standard">IFRS 9 CKPN</div>
         </div>
-        <div className="hero-biz-sat-text">
-          <strong>ICOFR Pro</strong>
-          <span>SOX 404 & KKP ISA 230</span>
-        </div>
-      </div>
 
-      <div className="hero-biz-satellite sat-lease" title="Lease Engine">
-        <div className="hero-biz-sat-icon">
-          <img src="/logos/lease.svg" alt="Lease Engine" width={30} height={30} />
+        <div className="hero-biz-engine-card">
+          <img src="/logos/jet-pro.svg" alt="JET Pro" width={32} height={32} />
+          <div className="hero-biz-engine-title">JET Pro</div>
+          <div className="hero-biz-engine-standard">ISA 240 Fraud</div>
         </div>
-        <div className="hero-biz-sat-text">
-          <strong>Lease Engine</strong>
-          <span>PSAK 73 / IFRS 16</span>
+
+        <div className="hero-biz-engine-card">
+          <img src="/logos/icofr.svg" alt="ICOFR Pro" width={32} height={32} />
+          <div className="hero-biz-engine-title">ICOFR Pro</div>
+          <div className="hero-biz-engine-standard">SOX 404 KKP</div>
         </div>
-      </div>
 
-      <div className="hero-biz-satellite sat-counting" title="Counting Pro">
-        <img src="/logos/counting-pro.svg" alt="Counting Pro" width={22} height={22} />
-        <span>Counting Pro</span>
-      </div>
-
-      <div className="hero-biz-satellite sat-benefits" title="Benefits Engine">
-        <img src="/logos/benefits.svg" alt="Benefits" width={22} height={22} />
-        <span>Benefits (IAS 19)</span>
+        <div className="hero-biz-engine-card">
+          <img src="/logos/lease.svg" alt="Lease Engine" width={32} height={32} />
+          <div className="hero-biz-engine-title">Lease Engine</div>
+          <div className="hero-biz-engine-standard">PSAK 73 IFRS 16</div>
+        </div>
       </div>
     </div>
   );

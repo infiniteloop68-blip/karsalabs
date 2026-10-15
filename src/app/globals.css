@@ -1293,10 +1293,10 @@ p,
   }
 }
 
-/* Goletin Bisnis Hero Banner with Dedicated Business Illustration */
+/* Goletin Bisnis Hero Banner with Authentic Corporate Collaboration Photography */
 .goletin-business-hero-banner {
   background-color: #FAF9F5;
-  background-image: url('/images/goletin-business-hero-slide.jpg');
+  background-image: url('/images/corporate-analysis.jpg');
   background-position: left center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -1346,16 +1346,16 @@ p,
     display: block;
     width: 100%;
     height: 240px;
-    background: #FAF9F5 url('/images/goletin-business-hero-slide.jpg') center center / contain no-repeat;
+    background: #FAF9F5 url('/images/corporate-analysis.jpg') center center / cover no-repeat;
     border-bottom: 1px solid var(--ms-border);
   }
 }
 
-/* Goletin Enterprise Hero Banner with 3D Isometric Infrastructure Illustration */
+/* Goletin Enterprise Hero Banner with Corporate Collaboration Photography */
 .goletin-enterprise-hero-banner {
   background-color: #FAF9F5;
-  background-image: url('/images/goletin-enterprise-iso.jpg');
-  background-position: left center;
+  background-image: url('/images/corporate-analysis.jpg');
+  background-position: right center;
   background-size: cover;
   background-repeat: no-repeat;
   min-height: 520px;
@@ -1368,7 +1368,7 @@ p,
 
 .goletin-enterprise-hero-banner .ms-hero-container {
   display: flex;
-  justify-content: flex-end;
+  justify-content: flex-start;
 }
 
 .goletin-enterprise-hero-banner .ms-hero-card {
@@ -1378,7 +1378,7 @@ p,
 @media (max-width: 1083px) {
   .goletin-enterprise-hero-banner {
     min-height: 480px;
-    background-position: calc(0% - 140px) center;
+    background-position: calc(100% + 140px) center;
   }
 }
 
@@ -1404,15 +1404,15 @@ p,
     display: block;
     width: 100%;
     height: 240px;
-    background: #FAF9F5 url('/images/goletin-enterprise-iso.jpg') center center / contain no-repeat;
+    background: #FAF9F5 url('/images/corporate-analysis.jpg') center center / cover no-repeat;
     border-bottom: 1px solid var(--ms-border);
   }
 }
 
-/* Goletin Individu Hero Banner with Dedicated Microsoft 365 Style Floating Apps Illustration */
+/* Goletin Individu Hero Banner with Authentic Lifestyle & Personal Productivity Photography */
 .goletin-individu-hero-banner {
   background-color: #FAF9F5;
-  background-image: url('/images/goletin-msft-hero-slide.jpg');
+  background-image: url('/images/cloudsave-card.jpg');
   background-position: left center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -1462,15 +1462,15 @@ p,
     display: block;
     width: 100%;
     height: 240px;
-    background: #FAF9F5 url('/images/goletin-msft-hero-slide.jpg') center center / contain no-repeat;
+    background: #FAF9F5 url('/images/cloudsave-card.jpg') center center / cover no-repeat;
     border-bottom: 1px solid var(--ms-border);
   }
 }
 
-/* Goletin Pendidikan Hero Banner with 3D Isometric Campus & Classroom Illustration */
+/* Goletin Pendidikan Hero Banner with Authentic Education & Digital Campus Photography */
 .goletin-pendidikan-hero-banner {
   background-color: #FAF9F5;
-  background-image: url('/images/goletin-education-hero.jpg');
+  background-image: url('/images/cloudsave-card.jpg');
   background-position: left center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -1520,7 +1520,7 @@ p,
     display: block;
     width: 100%;
     height: 240px;
-    background: #FAF9F5 url('/images/goletin-education-hero.jpg') center center / contain no-repeat;
+    background: #FAF9F5 url('/images/cloudsave-card.jpg') center center / cover no-repeat;
     border-bottom: 1px solid var(--ms-border);
   }
 }
@@ -1641,9 +1641,9 @@ p,
   }
 }
 
-/* Goletin ECL Pro Hero Banner with High-Tech Risk Matrix Illustration */
+/* Goletin ECL Pro Hero Banner with Corporate Financial Analyst Photography */
 .goletin-ecl-hero-banner {
-  background-color: #0A141D;
+  background-color: #FAF9F5;
   background-image: url('/images/ecl-pro-card.jpg');
   background-position: right center;
   background-size: cover;
@@ -1653,7 +1653,7 @@ p,
   overflow: hidden;
   border-radius: 8px;
   margin-bottom: 48px;
-  border: 1px solid #1E293B;
+  border: 1px solid #EBE8E3;
 }
 
 .goletin-ecl-hero-banner .ms-hero-container {
@@ -1662,7 +1662,7 @@ p,
 }
 
 .goletin-ecl-hero-banner .ms-hero-card {
-  box-shadow: 0 16px 40px rgba(0, 0, 0, 0.25);
+  box-shadow: 0 12px 36px rgba(0, 0, 0, 0.08);
 }
 
 @media (max-width: 1083px) {
@@ -1694,15 +1694,15 @@ p,
     display: block;
     width: 100%;
     height: 240px;
-    background: #0A141D url('/images/ecl-pro-card.jpg') center center / cover no-repeat;
+    background: #FAF9F5 url('/images/ecl-pro-card.jpg') center center / cover no-repeat;
     border-bottom: 1px solid var(--ms-border);
   }
 }
 
-/* Goletin Sampling Pro Hero Banner with 3D Isometric Audit Sampling Illustration */
+/* Goletin Sampling Pro Hero Banner with Authentic Audit & Forensic Photography */
 .goletin-sampling-hero-banner {
   background-color: #FAF9F5;
-  background-image: url('/images/sampling-pro-hero.jpg');
+  background-image: url('/images/audit-tools-card.jpg');
   background-position: right center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -1752,15 +1752,15 @@ p,
     display: block;
     width: 100%;
     height: 240px;
-    background: #FAF9F5 url('/images/sampling-pro-hero.jpg') center center / cover no-repeat;
+    background: #FAF9F5 url('/images/audit-tools-card.jpg') center center / cover no-repeat;
     border-bottom: 1px solid var(--ms-border);
   }
 }
 
-/* Goletin JET Pro Hero Banner with 3D Isometric Fraud Detection Illustration */
+/* Goletin JET Pro Hero Banner with Journal Entry Testing & Audit Workpaper Photography */
 .goletin-jet-hero-banner {
   background-color: #FAF9F5;
-  background-image: url('/images/jet-pro-hero.jpg');
+  background-image: url('/images/cand-analysis.jpg');
   background-position: right center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -1810,15 +1810,15 @@ p,
     display: block;
     width: 100%;
     height: 240px;
-    background: #FAF9F5 url('/images/jet-pro-hero.jpg') center center / cover no-repeat;
+    background: #FAF9F5 url('/images/cand-analysis.jpg') center center / cover no-repeat;
     border-bottom: 1px solid var(--ms-border);
   }
 }
 
-/* Goletin IndoTax Hero Banner with Dedicated IndoTax App Laptop Showcase */
+/* Goletin IndoTax Hero Banner with Authentic Tax & Corporate Financial Photography */
 .goletin-indotax-hero-banner {
   background-color: #FAF9F5;
-  background-image: url('/images/indotax-card.png');
+  background-image: url('/images/corporate-analysis.jpg');
   background-position: right center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -1868,7 +1868,7 @@ p,
     display: block;
     width: 100%;
     height: 240px;
-    background: #FAF9F5 url('/images/indotax-card.png') center center / contain no-repeat;
+    background: #FAF9F5 url('/images/corporate-analysis.jpg') center center / cover no-repeat;
     border-bottom: 1px solid var(--ms-border);
   }
 }
@@ -2221,10 +2221,10 @@ p,
   }
 }
 
-/* Goletin Browser Hero Banner */
+/* Goletin Browser Hero Banner with Authentic Web Workspace Photography */
 .goletin-browser-hero-banner {
   background-color: #0F172A;
-  background-image: url('/images/goletin-browser-hero.jpg');
+  background-image: url('/images/cand-dashboard.jpg');
   background-position: right center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -2274,15 +2274,15 @@ p,
     display: block;
     width: 100%;
     height: 240px;
-    background: #0F172A url('/images/goletin-browser-hero.jpg') center center / cover no-repeat;
+    background: #0F172A url('/images/cand-dashboard.jpg') center center / cover no-repeat;
     border-bottom: 1px solid var(--ms-border);
   }
 }
 
-/* Goletin Console Hero Banner */
+/* Goletin Console Hero Banner with Sleek Cloud & API Metrics Photography */
 .goletin-console-hero-banner {
   background-color: #0F172A;
-  background-image: url('/images/goletin-console-hero.jpg');
+  background-image: url('/images/data-dashboard.jpg');
   background-position: right center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -2332,15 +2332,15 @@ p,
     display: block;
     width: 100%;
     height: 240px;
-    background: #0F172A url('/images/goletin-console-hero.jpg') center center / cover no-repeat;
+    background: #0F172A url('/images/data-dashboard.jpg') center center / cover no-repeat;
     border-bottom: 1px solid var(--ms-border);
   }
 }
 
-/* Goletin Design Studio Hero Banner */
+/* Goletin Design Studio Hero Banner with Creative Interface Design Photography */
 .goletin-design-hero-banner {
   background-color: #F8FAF9;
-  background-image: url('/images/goletin-design-hero.jpg');
+  background-image: url('/images/goletin-ai-card.jpg');
   background-position: right center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -2390,7 +2390,7 @@ p,
     display: block;
     width: 100%;
     height: 240px;
-    background: #F8FAF9 url('/images/goletin-design-hero.jpg') center center / cover no-repeat;
+    background: #F8FAF9 url('/images/goletin-ai-card.jpg') center center / cover no-repeat;
     border-bottom: 1px solid var(--ms-border);
   }
 }
@@ -8501,7 +8501,7 @@ p,
 }
 
 /* --------------------------------------------------------------------------
-   SLIDE 1 VISUAL: GOLETIN AI ORBIT CONSTELLATION (LOGOS ALL APPS)
+   SLIDE 1 VISUAL: GOLETIN AI ORBIT CONSTELLATION (STATIC — NO ANIMATION)
    -------------------------------------------------------------------------- */
 .hero-orbit-stage {
   position: relative;
@@ -8516,16 +8516,10 @@ p,
   position: absolute;
   width: 320px;
   height: 320px;
-  background: radial-gradient(circle, rgba(0, 237, 194, 0.22) 0%, rgba(0, 125, 101, 0.12) 50%, transparent 70%);
+  background: radial-gradient(circle, rgba(0, 237, 194, 0.18) 0%, rgba(0, 125, 101, 0.08) 50%, transparent 70%);
   border-radius: 50%;
   filter: blur(28px);
   pointer-events: none;
-  animation: pulseGlow 6s ease-in-out infinite alternate;
-}
-
-@keyframes pulseGlow {
-  0% { transform: scale(0.92); opacity: 0.7; }
-  100% { transform: scale(1.08); opacity: 1; }
 }
 
 .hero-orbit-ring {
@@ -8551,19 +8545,13 @@ p,
   flex-direction: column;
   align-items: center;
   gap: 10px;
-  background: rgba(255, 255, 255, 0.94);
+  background: rgba(255, 255, 255, 0.96);
   backdrop-filter: blur(16px);
   -webkit-backdrop-filter: blur(16px);
   padding: 22px 28px;
   border-radius: 26px;
   border: 1px solid rgba(255, 255, 255, 0.95);
-  box-shadow: 0 20px 48px -10px rgba(0, 125, 101, 0.2), 0 0 0 1px rgba(0, 237, 194, 0.35);
-  animation: floatCenter 5s ease-in-out infinite alternate;
-}
-
-@keyframes floatCenter {
-  0% { transform: translateY(0px); }
-  100% { transform: translateY(-8px); }
+  box-shadow: 0 16px 36px -8px rgba(0, 125, 101, 0.16), 0 0 0 1px rgba(0, 237, 194, 0.35);
 }
 
 .hero-ai-logo-wrap {
@@ -8581,7 +8569,7 @@ p,
   width: 100%;
   height: 100%;
   object-fit: contain;
-  filter: drop-shadow(0 4px 10px rgba(0, 125, 101, 0.2));
+  filter: drop-shadow(0 4px 8px rgba(0, 125, 101, 0.16));
 }
 
 .hero-ai-badge {
@@ -8627,11 +8615,6 @@ p,
   border-radius: 16px;
   border: 1px solid rgba(255, 255, 255, 0.9);
   box-shadow: 0 10px 24px -4px rgba(14, 23, 38, 0.08), 0 2px 6px rgba(14, 23, 38, 0.04);
-  transition: transform 0.25s ease, box-shadow 0.25s ease;
-}
-.hero-satellite-card:hover {
-  transform: translateY(-4px) scale(1.05);
-  box-shadow: 0 16px 32px -4px rgba(0, 125, 101, 0.18);
 }
 .hero-satellite-card img {
   width: 34px;
@@ -8649,338 +8632,197 @@ p,
 .sat-docs {
   top: 24px;
   left: 60px;
-  animation: floatSat 5.4s ease-in-out infinite alternate 0.2s;
 }
 .sat-sheets {
   bottom: 30px;
   left: 45px;
-  animation: floatSat 6.1s ease-in-out infinite alternate 0.9s;
 }
 .sat-slides {
   top: 14px;
   left: 260px;
-  animation: floatSat 5.8s ease-in-out infinite alternate 0.4s;
 }
 .sat-cloudsave {
   top: 36px;
   right: 50px;
-  animation: floatSat 6.3s ease-in-out infinite alternate 1.2s;
 }
 .sat-mail {
   top: 175px;
   right: 15px;
-  animation: floatSat 5.2s ease-in-out infinite alternate 0.7s;
 }
 .sat-browser {
   bottom: 40px;
   right: 55px;
-  animation: floatSat 6.6s ease-in-out infinite alternate 1.5s;
 }
 .sat-console {
   bottom: 16px;
   left: 250px;
-  animation: floatSat 5.9s ease-in-out infinite alternate 1.0s;
 }
 .sat-search {
   top: 180px;
   left: 20px;
-  animation: floatSat 5.6s ease-in-out infinite alternate 0.5s;
-}
-
-@keyframes floatSat {
-  0% { transform: translateY(0px); }
-  100% { transform: translateY(-10px); }
 }
 
 /* --------------------------------------------------------------------------
-   SLIDE 2 VISUAL: GOLETIN BUSINESS WORKSPACE MOCKUP (LOGOS ALL APPS)
+   SLIDE 2 VISUAL: GOLETIN ENTERPRISE BENTO SHOWCASE (STATIC — NO LAPTOP)
    -------------------------------------------------------------------------- */
-.hero-biz-stage {
+.hero-biz-bento {
   position: relative;
   width: 100%;
-  height: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.hero-biz-glow {
-  position: absolute;
-  width: 400px;
-  height: 340px;
-  background: radial-gradient(circle, rgba(0, 120, 212, 0.16) 0%, rgba(0, 237, 194, 0.12) 45%, transparent 70%);
-  border-radius: 50%;
-  filter: blur(32px);
-  pointer-events: none;
-}
-
-.hero-laptop-wrap {
-  position: relative;
-  z-index: 3;
-  width: 480px;
+  max-width: 620px;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  animation: floatLaptop 6s ease-in-out infinite alternate;
+  gap: 12px;
+  user-select: none;
 }
 
-@keyframes floatLaptop {
-  0% { transform: translateY(0px); }
-  100% { transform: translateY(-7px); }
-}
-
-.hero-laptop-screen {
-  width: 100%;
-  background: #FFFFFF;
-  border-radius: 12px 12px 2px 2px;
-  border: 7px solid #1E293B;
-  box-shadow: 0 24px 50px -10px rgba(15, 23, 42, 0.22);
-  overflow: hidden;
-  display: flex;
-  flex-direction: column;
-}
-
-.hero-laptop-navbar {
-  height: 30px;
-  background: #0F172A;
-  padding: 0 12px;
+.hero-biz-bento-header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  font-size: 11px;
-  color: #94A3B8;
+  padding: 9px 16px;
+  background: rgba(255, 255, 255, 0.95);
+  border: 1px solid #E2E8F0;
+  border-radius: 12px;
+  box-shadow: 0 2px 10px rgba(15, 23, 42, 0.04);
 }
 
-.hero-laptop-dots {
+.hero-biz-bento-title {
   display: flex;
-  gap: 5px;
+  align-items: center;
+  gap: 8px;
+  font-size: 12.5px;
+  font-weight: 700;
+  color: #0F172A;
 }
-.hero-laptop-dots .dot {
-  width: 7px;
-  height: 7px;
-  border-radius: 50%;
-}
-.hero-laptop-dots .dot.red { background: #EF4444; }
-.hero-laptop-dots .dot.yellow { background: #F59E0B; }
-.hero-laptop-dots .dot.green { background: #10B981; }
 
-.hero-laptop-brand {
+.hero-biz-pills-row {
   display: flex;
   align-items: center;
   gap: 6px;
-  font-weight: 600;
-  color: #E2E8F0;
-  font-size: 11px;
-}
-.hero-laptop-status {
-  display: flex;
-  align-items: center;
-  gap: 5px;
-  font-size: 10px;
-  color: #10B981;
-}
-.status-live-dot {
-  width: 6px;
-  height: 6px;
-  border-radius: 50%;
-  background: #10B981;
-  box-shadow: 0 0 8px #10B981;
 }
 
-.hero-laptop-content {
-  padding: 14px;
-  background: #F8FAFC;
+.biz-header-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 10.5px;
+  font-weight: 600;
+  color: #334155;
+  background: #F1F5F9;
+  padding: 3px 8px;
+  border-radius: 6px;
+  border: 1px solid #E2E8F0;
+}
+.biz-header-pill img {
+  width: 15px;
+  height: 15px;
+  object-fit: contain;
+}
+
+.hero-biz-duo-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 12px;
 }
 
-.hero-screen-card {
+.hero-biz-card-lead {
   background: #FFFFFF;
   border: 1px solid #E2E8F0;
-  border-radius: 10px;
-  padding: 12px;
-  box-shadow: 0 4px 12px rgba(15, 23, 42, 0.04);
+  border-radius: 14px;
+  padding: 16px;
+  box-shadow: 0 8px 24px -4px rgba(15, 23, 42, 0.07);
   display: flex;
   flex-direction: column;
-  gap: 8px;
+  justify-content: space-between;
+  gap: 10px;
 }
-.hero-screen-card-header {
+
+.hero-biz-lead-top {
   display: flex;
   align-items: center;
-  gap: 8px;
+  gap: 12px;
 }
-.hero-screen-card-header img {
-  width: 28px;
-  height: 28px;
+.hero-biz-lead-top img {
+  width: 38px;
+  height: 38px;
   object-fit: contain;
+  flex-shrink: 0;
 }
-.hero-screen-card-title {
-  font-size: 12px;
+.hero-biz-lead-name {
+  font-size: 14px;
   font-weight: 700;
   color: #0F172A;
-  line-height: 14px;
+  line-height: 16px;
 }
-.hero-screen-card-sub {
-  font-size: 9.5px;
-  color: #64748B;
-}
-.hero-screen-metric {
-  display: flex;
-  flex-direction: column;
-  gap: 2px;
+.hero-biz-lead-compliance {
+  font-size: 11px;
+  font-weight: 600;
+  color: #007D65;
   margin-top: 2px;
 }
-.metric-label {
-  font-size: 9.5px;
-  color: #64748B;
-}
-.metric-val {
-  font-size: 13px;
-  font-weight: 800;
-  color: #007D65;
-}
-.metric-badge {
-  font-size: 10px;
-  font-weight: 700;
-  color: #0284C7;
-  background: #E0F2FE;
-  padding: 2px 6px;
-  border-radius: 4px;
-  display: inline-block;
-  align-self: flex-start;
-}
-.hero-screen-bars {
-  display: flex;
-  flex-direction: column;
-  gap: 4px;
-  margin-top: 4px;
-}
-.hero-screen-bars .bar {
-  height: 5px;
-  border-radius: 3px;
-}
-.hero-screen-bars .bar.b1 { background: #007D65; }
-.hero-screen-bars .bar.b2 { background: #00EDC2; }
-.hero-screen-tags {
-  display: flex;
-  gap: 4px;
-  flex-wrap: wrap;
-}
-.tag-pill {
-  font-size: 9px;
-  font-weight: 600;
-  background: #F1F5F9;
-  color: #334155;
-  padding: 2px 6px;
-  border-radius: 4px;
+
+.hero-biz-lead-desc {
+  font-size: 11.5px;
+  line-height: 17px;
+  color: #475569;
+  margin: 0;
 }
 
-.hero-laptop-base {
-  width: 108%;
-  height: 12px;
-  background: #334155;
-  border-radius: 0 0 10px 10px;
-  box-shadow: 0 12px 24px rgba(15, 23, 42, 0.25);
-  position: relative;
-}
-.hero-laptop-base::after {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 50%;
-  transform: translateX(-50%);
-  width: 60px;
-  height: 4px;
-  background: #1E293B;
-  border-radius: 0 0 3px 3px;
-}
-
-.hero-biz-satellite {
-  position: absolute;
-  z-index: 4;
+.hero-biz-lead-badge {
   display: flex;
   align-items: center;
-  gap: 9px;
-  background: rgba(255, 255, 255, 0.95);
-  backdrop-filter: blur(12px);
-  -webkit-backdrop-filter: blur(12px);
-  padding: 8px 12px;
+  justify-content: space-between;
+  padding: 7px 10px;
+  background: #F8FAFC;
+  border: 1px solid #E2E8F0;
+  border-radius: 8px;
+  font-size: 11px;
+  font-weight: 600;
+  color: #0F172A;
+}
+.hero-biz-lead-badge .tag {
+  font-size: 10px;
+  font-weight: 700;
+  padding: 2px 6px;
+  border-radius: 4px;
+  background: #E0F2FE;
+  color: #0284C7;
+}
+
+.hero-biz-quad-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+}
+
+.hero-biz-engine-card {
+  background: #FFFFFF;
+  border: 1px solid #E2E8F0;
   border-radius: 12px;
-  border: 1px solid rgba(255, 255, 255, 0.9);
-  box-shadow: 0 12px 28px -4px rgba(15, 23, 42, 0.12);
-  transition: transform 0.2s ease;
-}
-.hero-biz-satellite:hover {
-  transform: translateY(-4px) scale(1.04);
-}
-.hero-biz-sat-icon img {
-  width: 30px;
-  height: 30px;
-  object-fit: contain;
-}
-.hero-biz-sat-text {
+  padding: 12px 8px;
+  box-shadow: 0 4px 14px rgba(15, 23, 42, 0.04);
   display: flex;
   flex-direction: column;
-  text-align: left;
+  align-items: center;
+  text-align: center;
+  gap: 6px;
 }
-.hero-biz-sat-text strong {
-  font-size: 12px;
-  color: #0F172A;
+.hero-biz-engine-card img {
+  width: 32px;
+  height: 32px;
+  object-fit: contain;
+}
+.hero-biz-engine-title {
+  font-size: 11.5px;
   font-weight: 700;
+  color: #0F172A;
   line-height: 14px;
 }
-.hero-biz-sat-text span {
-  font-size: 10px;
+.hero-biz-engine-standard {
+  font-size: 9.5px;
+  font-weight: 600;
   color: #64748B;
-  font-weight: 500;
-  white-space: nowrap;
-}
-
-.sat-ecl {
-  top: 15px;
-  left: 10px;
-  animation: floatBiz 5.5s ease-in-out infinite alternate 0.3s;
-}
-.sat-jet {
-  top: 20px;
-  right: 15px;
-  animation: floatBiz 6.2s ease-in-out infinite alternate 0.9s;
-}
-.sat-icofr {
-  bottom: 25px;
-  left: 15px;
-  animation: floatBiz 5.8s ease-in-out infinite alternate 1.2s;
-}
-.sat-lease {
-  bottom: 20px;
-  right: 20px;
-  animation: floatBiz 6.5s ease-in-out infinite alternate 0.6s;
-}
-.sat-counting {
-  top: 180px;
-  left: -15px;
-  padding: 5px 10px;
-  gap: 6px;
-  font-size: 11px;
-  font-weight: 600;
-  color: #334155;
-  animation: floatBiz 5.2s ease-in-out infinite alternate 1.5s;
-}
-.sat-benefits {
-  top: 190px;
-  right: -10px;
-  padding: 5px 10px;
-  gap: 6px;
-  font-size: 11px;
-  font-weight: 600;
-  color: #334155;
-  animation: floatBiz 5.7s ease-in-out infinite alternate 0.2s;
-}
-
-@keyframes floatBiz {
-  0% { transform: translateY(0px); }
-  100% { transform: translateY(-9px); }
+  line-height: 12px;
 }
 
 .msft-hero-headline {
