@@ -1243,10 +1243,10 @@ p,
   }
 }
 
-/* Goletin Dedicated Hero Banner with Illustration Background */
+/* Goletin Dedicated Hero Banner with Authentic AI & Modern Workspace Photography */
 .goletin-hero-banner {
   background-color: #FAF9F5;
-  background-image: url('/images/goletin-hero-illustration-bg.jpg');
+  background-image: url('/images/goletin-ai-card.jpg');
   background-position: right center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -1288,7 +1288,7 @@ p,
     display: block;
     width: 100%;
     height: 240px;
-    background: #FAF9F5 url('/images/goletin-hero-slide-graphic.jpg') center center / contain no-repeat;
+    background: #FAF9F5 url('/images/goletin-ai-card.jpg') center center / cover no-repeat;
     border-bottom: 1px solid var(--ms-border);
   }
 }

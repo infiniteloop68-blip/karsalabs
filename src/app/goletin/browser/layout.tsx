@@ -22,7 +22,7 @@ export const metadata: Metadata = {
     description:
       'Jelajahi internet dengan kecepatan tinggi tanpa pelacak iklan invasif, isolasi memori cerdas, dan asisten Goletin AI di panel samping.',
     url: 'https://karsasoft.com/goletin/browser',
-    images: ['/images/goletin-browser-hero.jpg'],
+    images: ['/images/cand-dashboard.jpg'],
   },
 };
 

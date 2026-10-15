@@ -23,7 +23,7 @@ export const metadata: Metadata = {
     description:
       'Kelola integrasi sistem enterprise, kuota token AI, dan webhook microservices ekosistem Goletin dalam satu platform terpadu.',
     url: 'https://karsasoft.com/goletin/console',
-    images: ['/images/goletin-console-hero.jpg'],
+    images: ['/images/data-dashboard.jpg'],
   },
 };
 

@@ -22,7 +22,7 @@ export const metadata: Metadata = {
     description:
       'Ciptakan materi pemasaran, slide presentasi, dan diagram visual branding korporasi dengan kanvas vektor real-time terintegrasi Goletin.',
     url: 'https://karsasoft.com/goletin/design-studio',
-    images: ['/images/goletin-design-hero.jpg'],
+    images: ['/images/goletin-ai-card.jpg'],
   },
 };
 
